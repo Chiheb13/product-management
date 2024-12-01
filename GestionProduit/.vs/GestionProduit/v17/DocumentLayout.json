@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\DetailsProduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionProduit\\DetailsProduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionProduit\\CreateProduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\AppShell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionProduit\\AppShell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionProduit\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionProduit\\App.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetailsProduit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\DetailsProduit.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\DetailsProduit.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\DetailsProduit.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\DetailsProduit.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:23:31.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateProduit.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\CreateProduit.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml",
+              "RelativeToolTip": "GestionProduit\\CreateProduit.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T16:23:30.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\AppShell.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\AppShell.xaml",
+              "RelativeToolTip": "GestionProduit\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T16:23:28.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:23:26.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\App.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml",
+              "RelativeToolTip": "GestionProduit\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T16:23:15.283Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

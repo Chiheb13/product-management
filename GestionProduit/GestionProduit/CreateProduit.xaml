@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionProduit.Pages.CreateProduitPage"
+             Title="Détails Produit">
+
+    <StackLayout Margin="20" Spacing="15">
+        <!-- Titre -->
+        <Entry Placeholder="Titre"
+               Text="{Binding Title}" />
+
+        <!-- Description -->
+        <Editor Placeholder="Description"
+                Text="{Binding Description}" 
+                HeightRequest="100" />
+
+        <!-- Prix -->
+        <Entry Placeholder="Prix"
+               Text="{Binding Prix}" 
+               Keyboard="Numeric" />
+
+        <!-- Quantité -->
+        <Entry Placeholder="Quantité"
+               Text="{Binding Quantite}" 
+               Keyboard="Numeric" />
+
+        <!-- Date de Création -->
+        <DatePicker Date="{Binding DateCreation}" />
+
+        <!-- Image picker button -->
+        <Button Text="Choisir une image" 
+                Clicked="OnChooseImageClicked" />
+        <Image x:Name="SelectedImage" IsVisible="False" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Enregistrer"
+                    Clicked="OnSaveButtonClicked"
+                    BackgroundColor="Green"
+                    TextColor="White" />
+            <Button Grid.Column="1"
+                    Text="Supprimer"
+                    Clicked="OnDeleteButtonClicked"
+                    BackgroundColor="Red"
+                    TextColor="White" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

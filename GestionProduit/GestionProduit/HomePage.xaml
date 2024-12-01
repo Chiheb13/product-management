@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionProduit.HomePage"
+             Title="Produits">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="OnProduitAddedClicked" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Margin="20" Spacing="20">
+        <!-- Barre de recherche -->
+        <SearchBar x:Name="searchBar"
+                   Placeholder="Rechercher un produit par titre ou description"
+                   TextChanged="OnSearchBarTextChanged" />
+        <ScrollView Orientation="Both">
+            <Grid x:Name="ProduitsGrid" ColumnSpacing="10" RowSpacing="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
