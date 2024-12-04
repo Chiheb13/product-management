@@ -21,8 +21,8 @@
 
         <!-- Quantité -->
         <Entry Placeholder="Quantité"
-               Text="{Binding Quantite}" 
-               Keyboard="Numeric" />
+       Text="{Binding Quentiter}" 
+       Keyboard="Numeric" />
 
         <!-- Date de Création -->
         <DatePicker Date="{Binding DateCreation}" />

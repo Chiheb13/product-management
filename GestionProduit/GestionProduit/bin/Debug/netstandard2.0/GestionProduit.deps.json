@@ -10,6 +10,7 @@
       "GestionProduit/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Xam.Plugin.Media": "6.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.9.172"
@@ -104,6 +105,14 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "4.0.4.1",
             "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -218,6 +227,13 @@
       "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "Xam.Plugin.Media/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QLl5CXxSDF92+E154djfDKOoPSjvGkQSxYmLY0Fitnb6P4B103JQDU7lZlH0ez67GtzZDa8kWvS0Go0Yv1w9og==",
+      "path": "xam.plugin.media/6.0.2",
+      "hashPath": "xam.plugin.media.6.0.2.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.0": {
       "type": "package",

@@ -116,6 +116,25 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -280,6 +299,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.Media": "6.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.9.172"
@@ -407,6 +427,25 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -571,6 +610,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.Media": "6.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.9.172"
@@ -698,6 +738,25 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -862,6 +921,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.Media": "6.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.9.172"
@@ -989,6 +1049,25 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -1153,6 +1232,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.Media": "6.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.9.172"
@@ -1280,6 +1360,25 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -1444,6 +1543,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.Media": "6.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.9.172"
@@ -1635,6 +1735,46 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugin.Media/6.0.2": {
+      "sha512": "QLl5CXxSDF92+E154djfDKOoPSjvGkQSxYmLY0Fitnb6P4B103JQDU7lZlH0ez67GtzZDa8kWvS0Go0Yv1w9og==",
+      "type": "package",
+      "path": "xam.plugin.media/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Media.dll",
+        "lib/monoandroid10.0/Plugin.Media.pdb",
+        "lib/monoandroid10.0/Plugin.Media.xml",
+        "lib/net6.0-android31.0/Plugin.Media.dll",
+        "lib/net6.0-android31.0/Plugin.Media.pdb",
+        "lib/net6.0-android31.0/Plugin.Media.xml",
+        "lib/net6.0-ios16.1/Plugin.Media.dll",
+        "lib/net6.0-ios16.1/Plugin.Media.pdb",
+        "lib/net6.0-ios16.1/Plugin.Media.xml",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.dll",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.pdb",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.xml",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.dll",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.pdb",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.pdb",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.17763/Plugin.Media.dll",
+        "lib/uap10.0.17763/Plugin.Media.pdb",
+        "lib/uap10.0.17763/Plugin.Media.pri",
+        "lib/uap10.0.17763/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.pdb",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.6.0.2.nupkg.sha512",
+        "xam.plugin.media.nuspec"
       ]
     },
     "Xamarin.Essentials/1.7.0": {
@@ -1904,6 +2044,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "GestionProduit >= 1.0.0",
+      "Xam.Plugin.Media >= 6.0.2",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -1955,6 +2096,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -1983,10 +2128,18 @@
   },
   "logs": [
     {
-      "code": "NU1900",
+      "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n GestionProduit.iOS -> Xam.Plugin.Media 6.0.2 -> Xamarin.Essentials (>= 1.7.3) \r\n GestionProduit.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-arm64",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
     }
   ]
 }

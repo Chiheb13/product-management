@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionProduit.LoginPage"
+             BackgroundColor="White">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="25" VerticalOptions="Center">
+            <!-- Header Image -->
+            <Image Source="https://mlu1iauax8ox.i.optimole.com/w:auto/h:auto/q:mauto/f:best/https://alexnum.com/wp-content/uploads/2024/03/AlexNum.com-Materiel-informatique-Grossiste.jpg" 
+                   HeightRequest="200" Aspect="AspectFill" HorizontalOptions="Center" />
+
+            <!-- Welcome Text -->
+            <Label Text="Welcome Back 👋" FontSize="24" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center" />
+            <Label Text="Today is a new day. It's your day. start managing your projects." 
+                   FontSize="14" TextColor="Gray" HorizontalTextAlignment="Center" />
+
+            <!-- Email Entry -->
+            <Entry Placeholder="Email" Keyboard="Email" Margin="0,10,0,0" />
+
+            <!-- Password Entry -->
+            <Entry Placeholder="Password" IsPassword="True" />
+
+            <!-- Forgot Password -->
+            <Label Text="Forgot Password?" TextColor="#007BFF" FontSize="14" HorizontalTextAlignment="End" />
+
+            <!-- Login Button -->
+            <Button Text="Sign in" BackgroundColor="#1E3A8A" TextColor="White" CornerRadius="10" HeightRequest="50" Clicked="OnLoginClicked" />
+
+            <!-- Divider -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                <BoxView BackgroundColor="Gray" HeightRequest="1" WidthRequest="50" VerticalOptions="Center" />
+                <Label Text="Or sign in with" FontSize="14" TextColor="Gray" />
+                <BoxView BackgroundColor="Gray" HeightRequest="1" WidthRequest="50" VerticalOptions="Center" />
+            </StackLayout>
+
+            <!-- Social Media Buttons -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+                <Button Text="Google" BackgroundColor="#DB4437" TextColor="White" WidthRequest="100" />
+                <Button Text="Facebook" BackgroundColor="#3B5998" TextColor="White" WidthRequest="100" />
+            </StackLayout>
+
+            <!-- Footer -->
+            <Label Text="Don't you have an account? Sign up" FontSize="14" HorizontalTextAlignment="Center" />
+            <Label Text="© 2023 ALL RIGHTS RESERVED" FontSize="12" TextColor="Gray" HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

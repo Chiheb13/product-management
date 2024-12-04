@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using GestionProduit.DataBase;
+using GestionProduit.Views;
 using Xamarin.Forms;
 
 namespace GestionProduit
@@ -29,7 +30,7 @@ namespace GestionProduit
             Application.Current.UserAppTheme = OSAppTheme.Light;
 
             // Définir la page principale de navigation
-            MainPage = new NavigationPage(new HomePage());
+            MainPage = new NavigationPage(new OnboardingPage());
         }
 
         protected override void OnStart()

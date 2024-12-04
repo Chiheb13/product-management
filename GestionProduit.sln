@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionProduit.Android", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionProduit.iOS", "GestionProduit\GestionProduit.iOS\GestionProduit.iOS.csproj", "{4A7D97C3-31DB-4120-A0B3-FAC71C31CF8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionProduit", "GestionProduit\GestionProduit\GestionProduit.csproj", "{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionProduit", "GestionProduit\GestionProduit\GestionProduit.csproj", "{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21C59C20-146A-4494-9726-76CD74DC5FF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

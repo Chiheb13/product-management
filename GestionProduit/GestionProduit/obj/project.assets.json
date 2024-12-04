@@ -231,6 +231,19 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -641,6 +654,46 @@
         "version.txt"
       ]
     },
+    "Xam.Plugin.Media/6.0.2": {
+      "sha512": "QLl5CXxSDF92+E154djfDKOoPSjvGkQSxYmLY0Fitnb6P4B103JQDU7lZlH0ez67GtzZDa8kWvS0Go0Yv1w9og==",
+      "type": "package",
+      "path": "xam.plugin.media/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Media.dll",
+        "lib/monoandroid10.0/Plugin.Media.pdb",
+        "lib/monoandroid10.0/Plugin.Media.xml",
+        "lib/net6.0-android31.0/Plugin.Media.dll",
+        "lib/net6.0-android31.0/Plugin.Media.pdb",
+        "lib/net6.0-android31.0/Plugin.Media.xml",
+        "lib/net6.0-ios16.1/Plugin.Media.dll",
+        "lib/net6.0-ios16.1/Plugin.Media.pdb",
+        "lib/net6.0-ios16.1/Plugin.Media.xml",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.dll",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.pdb",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.xml",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.dll",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.pdb",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.pdb",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.17763/Plugin.Media.dll",
+        "lib/uap10.0.17763/Plugin.Media.pdb",
+        "lib/uap10.0.17763/Plugin.Media.pri",
+        "lib/uap10.0.17763/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.pdb",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.6.0.2.nupkg.sha512",
+        "xam.plugin.media.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -903,6 +956,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Xam.Plugin.Media >= 6.0.2",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
       "sqlite-net-pcl >= 1.9.172"
@@ -964,6 +1018,10 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -991,13 +1049,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

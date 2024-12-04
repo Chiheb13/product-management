@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qxkKaBqIonY=",
+  "dgSpecHash": "57NLcSJLxWQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.iOS\\GestionProduit.iOS.csproj",
   "expectedPackageFiles": [
@@ -12,15 +12,24 @@
     "C:\\Users\\chiheb\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\chiheb\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\chiheb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\chiheb\\.nuget\\packages\\xam.plugin.media\\6.0.2\\xam.plugin.media.6.0.2.nupkg.sha512",
     "C:\\Users\\chiheb\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\chiheb\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "NU1900",
+      "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n GestionProduit.iOS -> Xam.Plugin.Media 6.0.2 -> Xamarin.Essentials (>= 1.7.3) \r\n GestionProduit.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-arm64",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
     }
   ]
 }

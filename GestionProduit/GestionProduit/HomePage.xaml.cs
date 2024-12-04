@@ -55,8 +55,28 @@ namespace GestionProduit
                     status = "élevé";
                 }
 
+                // Wrap product details in a Frame to make it look like a card
+                var frame = new Frame
+                {
+                    BorderColor = Color.Gray,
+                    Padding = 10,
+                    Margin = new Thickness(5),
+                    CornerRadius = 10,
+                    HasShadow = true
+                };
+
+                var productLayout = new Grid
+                {
+                    ColumnSpacing = 10,
+                    RowSpacing = 10,
+                    RowDefinitions =
+            {
+                new RowDefinition { Height = GridLength.Auto }
+            }
+                };
+
                 // Add title
-                ProduitsGrid.Children.Add(new Label { Text = produit.Title }, 0, rowIndex);
+                productLayout.Children.Add(new Label { Text = produit.Title }, 0, 0);
 
                 // Add status with color coding
                 var statusLabel = new Label { Text = status, FontAttributes = FontAttributes.Bold };
@@ -72,7 +92,7 @@ namespace GestionProduit
                 {
                     statusLabel.TextColor = Color.Green;
                 }
-                ProduitsGrid.Children.Add(statusLabel, 1, rowIndex);
+                productLayout.Children.Add(statusLabel, 1, 0);
 
                 // Add action buttons
                 var actionLayout = new StackLayout { Orientation = StackOrientation.Horizontal, Spacing = 5 };
@@ -88,7 +108,6 @@ namespace GestionProduit
                     Padding = new Thickness(5),
                     Aspect = Aspect.AspectFit
                 };
-
                 updateButton.Clicked += (sender, e) => OnUpdateClicked(produit);
 
                 // Create delete button with icon
@@ -107,15 +126,25 @@ namespace GestionProduit
                 actionLayout.Children.Add(updateButton);
                 actionLayout.Children.Add(deleteButton);
 
-                ProduitsGrid.Children.Add(actionLayout, 2, rowIndex);
+                // Add the action buttons layout to the product layout
+                productLayout.Children.Add(actionLayout, 2, 0);
+
+                // Add the product layout to the frame
+                frame.Content = productLayout;
+
+                // Add the frame to the grid
+                ProduitsGrid.Children.Add(frame, 0, rowIndex);
+                Grid.SetColumnSpan(frame, 3);
             }
         }
 
 
+
         private async void OnUpdateClicked(Produit produit)
         {
-            await Navigation.PushAsync(new CreateProduitPage { BindingContext = produit });
+            await Navigation.PushAsync(new EditPrduit(produit));
         }
+
 
         private async void OnDeleteClicked(Produit produit)
         {

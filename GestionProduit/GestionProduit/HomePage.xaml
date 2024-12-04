@@ -18,11 +18,12 @@
                     <ColumnDefinition Width="2*" />
                     <ColumnDefinition Width="3*" />
                     <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-                
+
+                <!-- Headers -->
+                <Label Text="Titre" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="5" BackgroundColor="#f1f1f1" />
+                <Label Text="Status" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="5" BackgroundColor="#f1f1f1" />
+                <Label Text="Actions" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="5" BackgroundColor="#f1f1f1" />
             </Grid>
         </ScrollView>
     </StackLayout>

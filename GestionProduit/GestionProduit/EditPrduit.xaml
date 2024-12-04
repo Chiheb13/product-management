@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionProduit.EditPrduit"
+             Title="Détails du Produit">
+
+    <ContentPage.Resources>
+        <Style TargetType="Frame">
+            <Setter Property="Padding" Value="15"/>
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="HasShadow" Value="True"/>
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView Padding="20">
+        <Frame>
+            <StackLayout Spacing="15">
+                <Frame Padding="5" BorderColor="Gray" CornerRadius="10" HasShadow="True">
+                    <Image Source="{Binding ImagePath}" HeightRequest="200" Aspect="AspectFill" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold" />
+
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{Binding Prix, StringFormat='{0:C}'}" FontSize="18" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Frame Padding="10" BorderColor="Gray" CornerRadius="10">
+                            <Label Text="{Binding DateCreation, StringFormat='{0:dd/MM/yyyy}'}" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+
+                <Label Text="{Binding Quentiter,StringFormat='{quantité:0}'}" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" />
+
+                <Label Text="{Binding Description}" FontSize="16" HorizontalOptions="Center" LineBreakMode="WordWrap" />
+
+                <Button Text="Modifier Produit"
+        BackgroundColor="#48d6fa"
+        TextColor="White"
+        CornerRadius="10"
+        HeightRequest="50"
+        Clicked="OnUpdateClicked"/>
+
+            </StackLayout>
+        </Frame>
+    </ScrollView>
+
+</ContentPage>
