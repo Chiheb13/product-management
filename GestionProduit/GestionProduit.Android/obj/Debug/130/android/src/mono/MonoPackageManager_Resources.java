@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"GestionProduit.Android.dll",
 		"FormsViewGroup.dll",
 		"GestionProduit.dll",
+		"Plugin.Media.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",

@@ -47,6 +47,10 @@
       "frameworks": {
         "monoandroid13.0": {
           "dependencies": {
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -110,6 +114,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

@@ -55,6 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Xam.Plugin.Media">
+      <Version>6.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -96,8 +99,14 @@
   <ItemGroup>
     <Content Include="Resources\drawable\oeil.png" />
     <Content Include="Resources\drawable\supprimer.png" />
+    <Content Include="Resources\loginad.jpg" />
     <Content Include="Resources\oeil.png" />
     <Content Include="Resources\supprimer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\file_paths.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
 </Project>
