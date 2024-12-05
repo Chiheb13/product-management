@@ -12,16 +12,30 @@ namespace GestionProduit
 
         private async void OnLoginClicked(object sender, EventArgs e)
         {
+            // Credentials for admin
             string adminEmail = "admin@gmail.com";
             string adminPassword = "admin123";
 
-            if (true) // Replace with your logic
+            // Get user input from Entry fields
+            string enteredEmail = emailEntry.Text;
+            string enteredPassword = passwordEntry.Text;
+
+            // Validate email and password
+            if (string.IsNullOrEmpty(enteredEmail) || string.IsNullOrEmpty(enteredPassword))
             {
+                await DisplayAlert("Erreur", "Veuillez remplir tous les champs.", "OK");
+                return;
+            }
+
+            if (enteredEmail == adminEmail && enteredPassword == adminPassword)
+            {
+                // Navigate to HomePage if login is successful
                 await Navigation.PushAsync(new HomePage());
             }
             else
             {
-                await DisplayAlert("Login Failed", "Invalid email or password. Please try again.", "OK");
+                // Show error message if login fails
+                await DisplayAlert("Échec de connexion", "Email ou mot de passe incorrect. Veuillez réessayer.", "OK");
             }
         }
     }

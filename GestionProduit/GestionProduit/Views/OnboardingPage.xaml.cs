@@ -1,5 +1,4 @@
 ﻿using System;
-using GestionProduit.Views;
 using Xamarin.Forms;
 
 namespace GestionProduit
@@ -9,11 +8,12 @@ namespace GestionProduit
         public OnboardingPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false); // Désactiver l'AppBar
         }
 
         private async void OnLoginClicked(object sender, EventArgs e)
         {
-            // Navigate to the login page
+            // Navigation ou logique lors du clic sur le bouton "Sign In"
             await Navigation.PushAsync(new LoginPage());
         }
     }

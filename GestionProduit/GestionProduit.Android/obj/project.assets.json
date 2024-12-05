@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v13.0": {
+      "Microsoft.NET.Test.Sdk/17.12.0": {
+        "type": "package",
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -1925,6 +1931,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.NET.Test.Sdk": "17.12.0",
           "Xam.Plugin.Media": "6.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
@@ -1940,6 +1947,28 @@
     }
   },
   "libraries": {
+    "Microsoft.NET.Test.Sdk/17.12.0": {
+      "sha512": "kt/PKBZ91rFCWxVIJZSgVLk+YR+4KxTuHf799ho8WNiK5ZQpJNAEZCAWX86vcKrs+DiYjiibpYKdGZP6+/N17w==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/17.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net462/Microsoft.NET.Test.Sdk.props",
+        "build/net462/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp3.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp3.1/Microsoft.NET.Test.Sdk.targets",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "lib/net462/_._",
+        "lib/netcoreapp3.1/_._",
+        "microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
     "sqlite-net-pcl/1.9.172": {
       "sha512": "go533+huyvg5bOMmCpX+DyvLrcVRiEBIpqEiDHgXRijWIBBNkWnyMr/w+5ZzrUArKY+4ApucsbBnFtP3QITrJg==",
       "type": "package",
@@ -3743,24 +3772,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chiheb\\.nuget\\packages\\": {},
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
+      "projectUniqueName": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
       "projectName": "GestionProduit.Android",
-      "projectPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
-      "packagesPath": "C:\\Users\\chiheb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\obj\\",
+      "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
+      "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\chiheb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3774,8 +3803,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj": {
-              "projectPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj"
+            "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj": {
+              "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj"
             }
           }
         }
@@ -3810,7 +3839,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n GestionProduit.Android -> Xam.Plugin.Media 6.0.2 -> Xamarin.Essentials (>= 1.7.3) \r\n GestionProduit.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "message": "Passage à une version antérieure du package détecté : Xamarin.Essentials de 1.7.3 à 1.7.0. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n GestionProduit.Android -> Xam.Plugin.Media 6.0.2 -> Xamarin.Essentials (>= 1.7.3) \r\n GestionProduit.Android -> Xamarin.Essentials (>= 1.7.0)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "MonoAndroid,Version=v13.0"

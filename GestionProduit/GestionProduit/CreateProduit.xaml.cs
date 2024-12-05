@@ -60,7 +60,7 @@ namespace GestionProduit.Pages
 
                 // Display the selected image
                 SelectedImage.Source = ImageSource.FromFile(localPath);
-                SelectedImage.IsVisible = true;
+                SelectedImage.IsVisible = false;
 
                 // Update the binding context
                 var produit = (Produit)BindingContext;
@@ -83,6 +83,11 @@ namespace GestionProduit.Pages
             produit.DateCreation = DateTime.UtcNow;
             await App.Database.SaveProduitAsync(produit);
             await Navigation.PopAsync();
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            SelectedImage.IsVisible = false;  // Réinitialiser l'état si nécessaire
         }
 
         async void OnDeleteButtonClicked(object sender, EventArgs e)

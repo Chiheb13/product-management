@@ -14,6 +14,7 @@ namespace GestionProduit
         public HomePage()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
         }
 
         protected override async void OnAppearing()
@@ -29,112 +30,72 @@ namespace GestionProduit
         {
             ProduitsGrid.Children.Clear();
 
-            // Add headers
-            ProduitsGrid.Children.Add(new Label { Text = "Titre", FontAttributes = FontAttributes.Bold }, 0, 0);
-            ProduitsGrid.Children.Add(new Label { Text = "Status", FontAttributes = FontAttributes.Bold }, 1, 0);
-            ProduitsGrid.Children.Add(new Label { Text = "Actions", FontAttributes = FontAttributes.Bold }, 2, 0);
+            // Ajouter les en-têtes
+            ProduitsGrid.Children.Add(new Label { Text = "Titre", FontAttributes = FontAttributes.Bold, BackgroundColor = Color.FromHex("#69dbff"), TextColor = Color.White, HorizontalTextAlignment = TextAlignment.Center }, 0, 0);
+            ProduitsGrid.Children.Add(new Label { Text = "Statut", FontAttributes = FontAttributes.Bold, BackgroundColor = Color.FromHex("#69dbff"), TextColor = Color.White, HorizontalTextAlignment = TextAlignment.Center }, 1, 0);
+            ProduitsGrid.Children.Add(new Label { Text = "Actions", FontAttributes = FontAttributes.Bold, BackgroundColor = Color.FromHex("#69dbff"), TextColor = Color.White, HorizontalTextAlignment = TextAlignment.Center }, 2, 0);
 
-            // Add products
+            // Ajouter les produits
             for (int i = 0; i < produits.Count; i++)
             {
                 var produit = produits[i];
                 int rowIndex = i + 1;
 
-                // Calculate status based on quantity using if-else
+                // Calculer le statut et ses couleurs
                 string status;
-                if (produit.Quentiter <= 20)
+                Color statusColor;
+                if (produit.Quentiter == 0)
                 {
-                    status = "faible";
+                    status = "Hors Stock";
+                    statusColor = Color.Red;
+                }
+               else if (produit.Quentiter <= 20)
+                {
+                    status = "Faible";
+                    statusColor = Color.Red;
                 }
                 else if (produit.Quentiter <= 40)
                 {
-                    status = "moyen";
+                    status = "Moyen";
+                    statusColor = Color.Orange;
                 }
                 else
                 {
-                    status = "élevé";
+                    status = "Élevé";
+                    statusColor = Color.Green;
                 }
 
-                // Wrap product details in a Frame to make it look like a card
-                var frame = new Frame
-                {
-                    BorderColor = Color.Gray,
-                    Padding = 10,
-                    Margin = new Thickness(5),
-                    CornerRadius = 10,
-                    HasShadow = true
-                };
+                // Ajouter le titre
+                ProduitsGrid.Children.Add(new Label { Text = produit.Title, VerticalTextAlignment = TextAlignment.Center }, 0, rowIndex);
 
-                var productLayout = new Grid
-                {
-                    ColumnSpacing = 10,
-                    RowSpacing = 10,
-                    RowDefinitions =
-            {
-                new RowDefinition { Height = GridLength.Auto }
-            }
-                };
+                // Ajouter le statut
+                ProduitsGrid.Children.Add(new Label { Text = status, TextColor = statusColor, FontAttributes = FontAttributes.Bold, VerticalTextAlignment = TextAlignment.Center }, 1, rowIndex);
 
-                // Add title
-                productLayout.Children.Add(new Label { Text = produit.Title }, 0, 0);
-
-                // Add status with color coding
-                var statusLabel = new Label { Text = status, FontAttributes = FontAttributes.Bold };
-                if (status == "faible")
-                {
-                    statusLabel.TextColor = Color.Red;
-                }
-                else if (status == "moyen")
-                {
-                    statusLabel.TextColor = Color.Orange;
-                }
-                else
-                {
-                    statusLabel.TextColor = Color.Green;
-                }
-                productLayout.Children.Add(statusLabel, 1, 0);
-
-                // Add action buttons
+                // Ajouter les boutons d'action
                 var actionLayout = new StackLayout { Orientation = StackOrientation.Horizontal, Spacing = 5 };
 
-                // Create update button with icon
                 var updateButton = new ImageButton
                 {
                     Source = "https://cdn-icons-png.flaticon.com/128/8771/8771493.png",
-                    BackgroundColor = Color.FromHex("#48d6fa"),
-                    CornerRadius = 10,
-                    HeightRequest = 40,
-                    WidthRequest = 40,
-                    Padding = new Thickness(5),
-                    Aspect = Aspect.AspectFit
+                    BackgroundColor = Color.Transparent,
+                    HeightRequest = 30,
+                    WidthRequest = 30
                 };
-                updateButton.Clicked += (sender, e) => OnUpdateClicked(produit);
+                updateButton.Clicked += (s, e) => OnUpdateClicked(produit);
 
-                // Create delete button with icon
                 var deleteButton = new ImageButton
                 {
                     Source = "https://cdn-icons-png.flaticon.com/128/6861/6861362.png",
-                    BackgroundColor = Color.White,
-                    CornerRadius = 10,
-                    HeightRequest = 40,
-                    WidthRequest = 40,
-                    Padding = new Thickness(5),
-                    Aspect = Aspect.AspectFit
+                    BackgroundColor = Color.Transparent,
+                    HeightRequest = 30,
+                    WidthRequest = 30
                 };
-                deleteButton.Clicked += (sender, e) => OnDeleteClicked(produit);
+                deleteButton.Clicked += (s, e) => OnDeleteClicked(produit);
 
                 actionLayout.Children.Add(updateButton);
                 actionLayout.Children.Add(deleteButton);
 
-                // Add the action buttons layout to the product layout
-                productLayout.Children.Add(actionLayout, 2, 0);
-
-                // Add the product layout to the frame
-                frame.Content = productLayout;
-
-                // Add the frame to the grid
-                ProduitsGrid.Children.Add(frame, 0, rowIndex);
-                Grid.SetColumnSpan(frame, 3);
+                ProduitsGrid.Children.Add(actionLayout, 2, rowIndex);
             }
         }
 

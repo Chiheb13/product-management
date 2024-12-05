@@ -2,26 +2,107 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GestionProduit.Pages.ProduitDetailsPage"
-             Title="Détails du Produit">
-    <StackLayout Padding="20" Spacing="15">
-        <!-- Titre -->
-        <Label Text="Titre :" FontAttributes="Bold" FontSize="20" />
-        <Label Text="{Binding Title}" FontSize="18" />
+             Title="Détails du Produit"
+             BackgroundColor="#F1F3F6">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
 
-        <!-- Description -->
-        <Label Text="Description :" FontAttributes="Bold" FontSize="20" />
-        <Label Text="{Binding Description}" FontSize="18" />
+            <!-- Section: Titre -->
+            <Frame Padding="20" BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Titre :"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2c3e50" />
+                    <Label Text="{Binding Title}"
+                           FontSize="16"
+                           TextColor="#7f8c8d" />
+                </StackLayout>
+            </Frame>
 
-        <!-- Prix -->
-        <Label Text="Prix :" FontAttributes="Bold" FontSize="20" />
-        <Label Text="{Binding Prix, StringFormat='{0:C}'}" FontSize="18" />
+            <!-- Section: Description -->
+            <Frame Padding="20" BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Description :"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2c3e50" />
+                    <Label Text="{Binding Description}" 
+                           FontSize="16"
+                           TextColor="#7f8c8d" />
+                </StackLayout>
+            </Frame>
 
-        <!-- Quantité -->
-        <Label Text="Quantité :" FontAttributes="Bold" FontSize="20" />
-        <Label Text="{Binding Quentiter}" FontSize="18" />
+            <!-- Section: Prix -->
+            <Frame Padding="20" BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Prix :"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2c3e50" />
+                    <Label Text="{Binding Prix, StringFormat='{0:C}'}"
+                           FontSize="16"
+                           TextColor="#27ae60" />
+                </StackLayout>
+            </Frame>
 
-        <!-- Date de Création -->
-        <Label Text="Date de Création :" FontAttributes="Bold" FontSize="20" />
-        <Label Text="{Binding DateCreation, StringFormat='{0:dd/MM/yyyy}'}" FontSize="18" />
-    </StackLayout>
+            <!-- Section: Quantité -->
+            <Frame Padding="20" BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Quantité en Stock :"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2c3e50" />
+                    <Label Text="{Binding Quentiter}"
+                           FontSize="16"
+                           TextColor="#7f8c8d" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Section: Date de Création -->
+            <Frame Padding="20" BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Date de Création :"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2c3e50" />
+                    <Label Text="{Binding DateCreation, StringFormat='{0:dd/MM/yyyy}'}"
+                           FontSize="16"
+                           TextColor="#7f8c8d" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Section: Image -->
+            <Frame Padding="20" BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Image du Produit :"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2c3e50" />
+                    <Image Source="{Binding ImagePath}" Aspect="AspectFill" HeightRequest="200" HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Boutons d'action -->
+            <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center">
+                <Button Text="Modifier"
+                        BackgroundColor="#f39c12"
+                        TextColor="White"
+                        FontSize="16"
+                        CornerRadius="25"
+                        Padding="10,5"
+                        WidthRequest="150"
+                        HeightRequest="50" />
+
+                <Button Text="Supprimer"
+                        BackgroundColor="#e74c3c"
+                        TextColor="White"
+                        FontSize="16"
+                        CornerRadius="25"
+                        Padding="10,5"
+                        WidthRequest="150"
+                        HeightRequest="50" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

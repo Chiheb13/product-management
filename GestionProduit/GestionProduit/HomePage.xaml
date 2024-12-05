@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GestionProduit.HomePage"
              Title="Produits">
@@ -7,23 +6,36 @@
         <ToolbarItem Text="+" Clicked="OnProduitAddedClicked" />
     </ContentPage.ToolbarItems>
 
-    <StackLayout Margin="20" Spacing="20">
+    <StackLayout Margin="10" Spacing="15">
         <!-- Barre de recherche -->
         <SearchBar x:Name="searchBar"
                    Placeholder="Rechercher un produit par titre ou description"
                    TextChanged="OnSearchBarTextChanged" />
-        <ScrollView Orientation="Both">
-            <Grid x:Name="ProduitsGrid" ColumnSpacing="10" RowSpacing="10">
+
+        <!-- Tableau des produits -->
+        <ScrollView>
+            <Grid x:Name="ProduitsGrid" Padding="10" ColumnSpacing="5" RowSpacing="5">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*" />
                     <ColumnDefinition Width="3*" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
-                <!-- Headers -->
-                <Label Text="Titre" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="5" BackgroundColor="#f1f1f1" />
-                <Label Text="Status" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="5" BackgroundColor="#f1f1f1" />
-                <Label Text="Actions" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="5" BackgroundColor="#f1f1f1" />
+                <Label Text="Titre" 
+                       FontAttributes="Bold" 
+                       HorizontalTextAlignment="Center" 
+                       BackgroundColor="#69dbff" 
+                       TextColor="White" Padding="10" />
+                <Label Text="Stock" 
+                       FontAttributes="Bold" 
+                       HorizontalTextAlignment="Center" 
+                       BackgroundColor="#69dbff" 
+                       TextColor="White" Padding="10" />
+                <Label Text="Actions" 
+                       FontAttributes="Bold" 
+                       HorizontalTextAlignment="Center" 
+                       BackgroundColor="#69dbff" 
+                       TextColor="White" Padding="10" />
             </Grid>
         </ScrollView>
     </StackLayout>

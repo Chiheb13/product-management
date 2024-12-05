@@ -5,13 +5,12 @@
              BackgroundColor="Black">
     <Grid>
         <!-- Background Image -->
-        <Image Source="https://www.training.com.au/wp-content/uploads/admin-worker-vector.png"
+        <Image Source="https://img.freepik.com/vecteurs-premium/homme-travaillant-ordinateur_113065-13.jpg?w=640"
                Aspect="AspectFill"
                HorizontalOptions="FillAndExpand"
                VerticalOptions="FillAndExpand" />
 
-        <!-- Overlay Content -->
-        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="20">
+        <StackLayout VerticalOptions="End" HorizontalOptions="FillAndExpand" Padding="20">
             <Label Text="Welcome Back!" 
                    FontSize="36" 
                    FontAttributes="Bold" 
@@ -26,8 +25,8 @@
 
             <Button Text="Sign In"
                     FontSize="18"
-                    TextColor="Black"
-                    BackgroundColor="White"
+                    TextColor="White"
+                    BackgroundColor="#73b8d5"
                     CornerRadius="20"
                     HeightRequest="50"
                     Clicked="OnLoginClicked" />

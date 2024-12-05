@@ -2,50 +2,119 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GestionProduit.Pages.CreateProduitPage"
-             Title="Détails Produit">
+             BackgroundColor="#f8f9fa"
+             Title="Ajouter un Produit">
+    <ScrollView>
+        <StackLayout Margin="20" Spacing="25">
 
-    <StackLayout Margin="20" Spacing="15">
-        <!-- Titre -->
-        <Entry Placeholder="Titre"
-               Text="{Binding Title}" />
+            <!-- Titre de la page -->
+            <Label Text="Ajouter un Produit"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#2c3e50"
+                   HorizontalOptions="Center" />
 
-        <!-- Description -->
-        <Editor Placeholder="Description"
-                Text="{Binding Description}" 
-                HeightRequest="100" />
+            <!-- Section: Titre -->
+            <Frame Padding="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Titre" 
+                           FontSize="14" 
+                           TextColor="#34495e" />
+                    <Entry Placeholder="Entrez le titre"
+                           Text="{Binding Title}" 
+                           FontSize="16" 
+                           TextColor="#2c3e50" />
+                </StackLayout>
+            </Frame>
 
-        <!-- Prix -->
-        <Entry Placeholder="Prix"
-               Text="{Binding Prix}" 
-               Keyboard="Numeric" />
+            <!-- Section: Description -->
+            <Frame Padding="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Description" 
+                           FontSize="14" 
+                           TextColor="#34495e" />
+                    <Editor Placeholder="Décrivez le produit"
+                            Text="{Binding Description}" 
+                            FontSize="16" 
+                            TextColor="#2c3e50" 
+                            HeightRequest="100" />
+                </StackLayout>
+            </Frame>
 
-        <!-- Quantité -->
-        <Entry Placeholder="Quantité"
-       Text="{Binding Quentiter}" 
-       Keyboard="Numeric" />
+            <!-- Section: Prix -->
+            <Frame Padding="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Prix" 
+                           FontSize="14" 
+                           TextColor="#34495e" />
+                    <Entry Placeholder="Entrez le prix"
+                           Text="{Binding Prix}" 
+                           Keyboard="Numeric" 
+                           FontSize="16" 
+                           TextColor="#2c3e50" />
+                </StackLayout>
+            </Frame>
 
-        <!-- Date de Création -->
-        <DatePicker Date="{Binding DateCreation}" />
+            <!-- Section: Quantité -->
+            <Frame Padding="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Quantité" 
+                           FontSize="14" 
+                           TextColor="#34495e" />
+                    <Entry Placeholder="Entrez la quantité"
+                           Text="{Binding Quentiter}" 
+                           Keyboard="Numeric" 
+                           FontSize="16" 
+                           TextColor="#2c3e50" />
+                </StackLayout>
+            </Frame>
 
-        <!-- Image picker button -->
-        <Button Text="Choisir une image" 
-                Clicked="OnChooseImageClicked" />
-        <Image x:Name="SelectedImage" IsVisible="False" />
+            <!-- Section: Date de création -->
+            <Frame Padding="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Date de Création" 
+                           FontSize="14" 
+                           TextColor="#34495e" />
+                    <DatePicker Date="{Binding DateCreation}" 
+                                FontSize="16" 
+                                TextColor="#2c3e50" />
+                </StackLayout>
+            </Frame>
 
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Button Text="Enregistrer"
-                    Clicked="OnSaveButtonClicked"
-                    BackgroundColor="Green"
-                    TextColor="White" />
-            <Button Grid.Column="1"
-                    Text="Supprimer"
-                    Clicked="OnDeleteButtonClicked"
-                    BackgroundColor="Red"
-                    TextColor="White" />
-        </Grid>
-    </StackLayout>
+            <!-- Section: Image du produit -->
+            <Frame Padding="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Image du Produit" 
+                           FontSize="14" 
+                           TextColor="#34495e" />
+                    <Button Text="Choisir une image" 
+                            FontSize="16"
+                            BackgroundColor="#3498db" 
+                            TextColor="White" 
+                            CornerRadius="10"
+                            Clicked="OnChooseImageClicked" />
+                    <Image x:Name="SelectedImage" IsVisible="False" Margin="0,10,0,0" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Boutons d'actions -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="20">
+                <Button Text="Enregistrer"
+                        FontSize="16"
+                        BackgroundColor="#2ecc71"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="FillAndExpand"
+                        Clicked="OnSaveButtonClicked" />
+                <Button Text="Supprimer"
+                        FontSize="16"
+                        BackgroundColor="#e74c3c"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="FillAndExpand"
+                        Clicked="OnDeleteButtonClicked" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -8,7 +8,7 @@ namespace GestionProduit.Pages
         public ProduitDetailsPage(Produit produit)
         {
             InitializeComponent();
-            BindingContext = produit; // Lier les données du produit à la page
+            BindingContext = produit;
         }
     }
 }
