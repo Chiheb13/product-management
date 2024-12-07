@@ -1,0 +1,18 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionProduit.RegisterPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="25" VerticalOptions="Center">
+            <Label Text="Create Account" FontSize="24" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center" />
+
+            <Entry x:Name="fullNameEntry" Placeholder="Full Name" />
+            <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" />
+            <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True" />
+            <Entry x:Name="confirmPasswordEntry" Placeholder="Confirm Password" IsPassword="True" />
+
+            <Button Text="Register" BackgroundColor="#1E3A8A" TextColor="White" CornerRadius="10" HeightRequest="50" Clicked="OnRegisterClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionProduit.Views.UserOrderPage">
+    <StackLayout Padding="10" Spacing="15">
+
+        <!-- ListView to display orders -->
+        <ListView x:Name="OrdersListView" SeparatorVisibility="Default" IsPullToRefreshEnabled="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="5" Spacing="10">
+                            <Label Text="{Binding ProduitTitle}" FontSize="Medium" />
+                            <Label Text="{Binding Status}" FontSize="Small" TextColor="Gray" />
+                            <Label Text="{Binding Date, StringFormat='{0:dd MMM yyyy}'}" FontSize="Small" TextColor="Gray" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</ContentPage>
+ 

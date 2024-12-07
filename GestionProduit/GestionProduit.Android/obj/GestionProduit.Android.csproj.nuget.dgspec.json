@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj": {}
+    "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj": {
+    "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
+        "projectUniqueName": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
         "projectName": "GestionProduit.Android",
-        "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
-        "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\obj\\",
+        "projectPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\GestionProduit.Android.csproj",
+        "packagesPath": "C:\\Users\\chiheb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chiheb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj": {
-                "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj"
+              "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj": {
+                "projectPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj"
               }
             }
           }
@@ -47,6 +47,14 @@
       "frameworks": {
         "monoandroid13.0": {
           "dependencies": {
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
             "Xam.Plugin.Media": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -63,20 +71,20 @@
         }
       }
     },
-    "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj": {
+    "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj",
+        "projectUniqueName": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj",
         "projectName": "GestionProduit",
-        "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj",
-        "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\obj\\",
+        "projectPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\GestionProduit.csproj",
+        "packagesPath": "C:\\Users\\chiheb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chiheb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,6 +117,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.12.0, )"
@@ -147,7 +159,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

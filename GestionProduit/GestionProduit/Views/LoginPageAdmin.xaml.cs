@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace GestionProduit
 {
-    public partial class LoginPage : ContentPage
+    public partial class LoginPageAdmin : ContentPage
     {
-        public LoginPage()
+        public LoginPageAdmin()
         {
             InitializeComponent();
         }

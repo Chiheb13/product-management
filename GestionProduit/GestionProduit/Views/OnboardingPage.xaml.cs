@@ -1,4 +1,5 @@
 ﻿using System;
+using GestionProduit.Views;
 using Xamarin.Forms;
 
 namespace GestionProduit
@@ -13,8 +14,13 @@ namespace GestionProduit
 
         private async void OnLoginClicked(object sender, EventArgs e)
         {
-            // Navigation ou logique lors du clic sur le bouton "Sign In"
-            await Navigation.PushAsync(new LoginPage());
+            
+            await Navigation.PushAsync(new LoginPageAdmin());
+        }
+        private async void OnUserLoginClicked(object sender, EventArgs e)
+        {
+           
+            await Navigation.PushAsync(new UserLoginPage());
         }
     }
 }

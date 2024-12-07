@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using GestionProduit.Models;
+﻿using GestionProduit.Models;
 using GestionProduit.Pages;
+using GestionProduit.Views;
+using System.Collections.Generic;
+using System;
 using Xamarin.Forms;
 
 namespace GestionProduit
@@ -20,7 +20,6 @@ namespace GestionProduit
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-
             // Charger les Produits depuis la base de données
             allProduits = await App.Database.GetProduitAsync();
             PopulateProduitsGrid(allProduits);
@@ -49,7 +48,7 @@ namespace GestionProduit
                     status = "Hors Stock";
                     statusColor = Color.Red;
                 }
-               else if (produit.Quentiter <= 20)
+                else if (produit.Quentiter <= 20)
                 {
                     status = "Faible";
                     statusColor = Color.Red;
@@ -99,13 +98,10 @@ namespace GestionProduit
             }
         }
 
-
-
         private async void OnUpdateClicked(Produit produit)
         {
             await Navigation.PushAsync(new EditPrduit(produit));
         }
-
 
         private async void OnDeleteClicked(Produit produit)
         {
@@ -125,11 +121,11 @@ namespace GestionProduit
                 BindingContext = new Produit()
             });
         }
-        
-                private async void OnDetailsClicked(Produit produit)
-                {
-                    await Navigation.PushAsync(new ProduitDetailsPage(produit));
-                }
+
+        private async void OnDetailsClicked(Produit produit)
+        {
+            await Navigation.PushAsync(new ProduitDetailsPage(produit));
+        }
 
         private void OnSearchBarTextChanged(object sender, TextChangedEventArgs e)
         {
@@ -140,6 +136,13 @@ namespace GestionProduit
                 : allProduits.FindAll(p => p.Title.ToLower().Contains(searchText) || p.Description.ToLower().Contains(searchText));
 
             PopulateProduitsGrid(filteredProduits);
+        }
+
+        // Event handler for the "Voir les Commandes" button click
+        private async void OnViewOrdersClicked(object sender, EventArgs e)
+        {
+            // Navigate to the AdminOrdersPage
+            await Navigation.PushAsync(new AdminOrdersPage());
         }
     }
 }

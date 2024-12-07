@@ -15,6 +15,7 @@ namespace GestionProduit
             BindingContext = produit;
         }
 
+
         // Method to handle the "Modifier Produit" button click
         private async void OnUpdateClicked(object sender, EventArgs e)
         {

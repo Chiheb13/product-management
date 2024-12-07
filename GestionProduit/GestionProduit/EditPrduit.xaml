@@ -2,52 +2,99 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GestionProduit.EditPrduit"
-             Title="Détails du Produit">
+             Title="Détails du Produit"
+             BackgroundColor="#f9f9f9">
 
     <ContentPage.Resources>
+        <!-- Frame Style -->
         <Style TargetType="Frame">
-            <Setter Property="Padding" Value="15"/>
-            <Setter Property="BackgroundColor" Value="White"/>
-            <Setter Property="CornerRadius" Value="10"/>
-            <Setter Property="HasShadow" Value="True"/>
+            <Setter Property="Padding" Value="15" />
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="HasShadow" Value="True" />
         </Style>
 
+        <!-- Label Style -->
         <Style TargetType="Label">
-            <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="TextColor" Value="#34495e" />
         </Style>
     </ContentPage.Resources>
 
-    <ScrollView Padding="20">
-        <Frame>
-            <StackLayout Spacing="15">
-                <Frame Padding="5" BorderColor="Gray" CornerRadius="10" HasShadow="True">
-                    <Image Source="{Binding ImagePath}" HeightRequest="200" Aspect="AspectFill" HorizontalOptions="FillAndExpand" />
-                </Frame>
+    <ScrollView Padding="10">
+        <StackLayout Spacing="20">
+            <!-- Product Image -->
+            <Frame BorderColor="#e0e0e0">
+                <Image Source="{Binding ImagePath}" 
+                       HeightRequest="250" 
+                       Aspect="AspectFill" HorizontalOptions="FillAndExpand" />
+            </Frame>
 
-                <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold" />
+            <!-- Product Information Card -->
+            <Frame BorderColor="#e0e0e0">
+                <StackLayout Spacing="10">
+                    <!-- Title -->
+                    <Grid ColumnDefinitions="*,*">
+                    <Label Text="{Binding Title}" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="End" />
+                        <Label Text="{Binding Category}" 
+       FontSize="24" 
+       FontAttributes="Italic" 
+       HorizontalOptions="Start" />
+                    </Grid>
 
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="{Binding Prix, StringFormat='{0:C}'}" FontSize="18" FontAttributes="Bold" />
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                        <Frame Padding="10" BorderColor="Gray" CornerRadius="10">
-                            <Label Text="{Binding DateCreation, StringFormat='{0:dd/MM/yyyy}'}" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
-                        </Frame>
+                    <!-- Price, Date and Quantity -->
+                    <Grid ColumnDefinitions="*,*,*">
+                        <!-- Price -->
+                        <StackLayout Grid.Column="0" HorizontalOptions="StartAndExpand" Spacing="5">
+                            <Label Text="Prix" FontSize="14" TextColor="#7f8c8d" HorizontalOptions="Start" />
+                            <Label Text="{Binding Prix, StringFormat='{0:C}'}" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#27ae60" 
+                                   HorizontalOptions="Start" />
+                        </StackLayout>
+
+                        <!-- Creation Date -->
+                        <StackLayout Grid.Column="1" HorizontalOptions="Center" Spacing="5">
+                            <Label Text="Date de Création" FontSize="14" TextColor="#7f8c8d" HorizontalOptions="Center" />
+                            <Label Text="{Binding DateCreation, StringFormat='{0:dd/MM/yyyy}'}" 
+                                   FontSize="16" 
+                                   TextColor="#34495e" 
+                                   HorizontalOptions="Center" />
+                        </StackLayout>
+
+                        <!-- Quantity -->
+                        <StackLayout Grid.Column="2" HorizontalOptions="EndAndExpand" Spacing="5">
+                            <Label Text="Quantité" FontSize="14" TextColor="#7f8c8d" HorizontalOptions="End" />
+                            <Label Text="{Binding Quentiter, StringFormat='{0}'}" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalOptions="Center" />
+                        </StackLayout>
+                    </Grid>
+
+                    <!-- Description -->
+                    <StackLayout>
+                        <Label Text="Description" FontSize="14" TextColor="#7f8c8d" />
+                        <Label Text="{Binding Description}" 
+                               FontSize="16" 
+                               LineBreakMode="WordWrap" 
+                               HorizontalOptions="FillAndExpand" />
                     </StackLayout>
                 </StackLayout>
+            </Frame>
 
-                <Label Text="{Binding Quentiter,StringFormat='{quantité:0}'}" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" />
-
-                <Label Text="{Binding Description}" FontSize="16" HorizontalOptions="Center" LineBreakMode="WordWrap" />
-
-                <Button Text="Modifier Produit"
-        BackgroundColor="#48d6fa"
-        TextColor="White"
-        CornerRadius="10"
-        HeightRequest="50"
-        Clicked="OnUpdateClicked"/>
-
-            </StackLayout>
-        </Frame>
+            <!-- Action Button -->
+            <Button Text="Modifier Produit"
+                    BackgroundColor="#48d6fa"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="OnUpdateClicked" />
+        </StackLayout>
     </ScrollView>
-
 </ContentPage>

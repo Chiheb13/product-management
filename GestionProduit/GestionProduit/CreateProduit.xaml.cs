@@ -3,10 +3,10 @@ using Xamarin.Forms;
 using GestionProduit.Models;
 using System;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using System.IO;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
+using GestionProduit.ViewModels;
 
 namespace GestionProduit.Pages
 {
@@ -15,8 +15,9 @@ namespace GestionProduit.Pages
         public CreateProduitPage()
         {
             InitializeComponent();
-            CheckPermissions();
+            BindingContext = new CreateProduitViewModel();
         }
+
 
         private async Task CheckPermissions()
         {
@@ -42,7 +43,8 @@ namespace GestionProduit.Pages
 
                 var file = await CrossMedia.Current.PickPhotoAsync(new PickMediaOptions
                 {
-                    PhotoSize = PhotoSize.Medium
+                    PhotoSize = PhotoSize.Medium,
+                    CompressionQuality = 80
                 });
 
                 if (file == null)
@@ -58,9 +60,12 @@ namespace GestionProduit.Pages
                     await sourceStream.CopyToAsync(destinationStream);
                 }
 
-                // Display the selected image
-                SelectedImage.Source = ImageSource.FromFile(localPath);
-                SelectedImage.IsVisible = false;
+                // Ensure UI updates happen on the main thread
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    SelectedImage.Source = ImageSource.FromFile(localPath);
+                    SelectedImage.IsVisible = true;
+                });
 
                 // Update the binding context
                 var produit = (Produit)BindingContext;
@@ -72,8 +77,7 @@ namespace GestionProduit.Pages
             catch (Exception ex)
             {
                 Console.WriteLine($"Image picking error: {ex}");
-                await DisplayAlert("Error",
-                    "An error occurred while selecting the image. Please try again.", "OK");
+                await DisplayAlert("Error", "An error occurred while selecting the image. Please try again.", "OK");
             }
         }
 
@@ -84,17 +88,11 @@ namespace GestionProduit.Pages
             await App.Database.SaveProduitAsync(produit);
             await Navigation.PopAsync();
         }
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            SelectedImage.IsVisible = false;  // Réinitialiser l'état si nécessaire
-        }
 
         async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
             var produit = (Produit)BindingContext;
-            bool confirm = await DisplayAlert("Confirmation",
-                "Voulez-vous vraiment supprimer ce produit ?", "Oui", "Non");
+            bool confirm = await DisplayAlert("Confirmation", "Voulez-vous vraiment supprimer ce produit ?", "Oui", "Non");
             if (confirm)
             {
                 await App.Database.DeleteProduitAsync(produit);

@@ -8,6 +8,7 @@ namespace GestionProduit.Models
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string Title { get; set; }
+        public string Category { get; set; }
         public string Description { get; set; }
         public double Prix { get; set; }
         public int Quentiter { get; set; }

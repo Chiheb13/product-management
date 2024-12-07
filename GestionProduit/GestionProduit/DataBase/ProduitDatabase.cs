@@ -12,8 +12,10 @@ namespace GestionProduit.DataBase
         public ProduitDatabase(string dbPath)
         {
             _database = new SQLiteAsyncConnection(dbPath);
-            _database.CreateTableAsync<Produit>().Wait();
+              // Drop the existing table (be cautious, this deletes all data)
+            _database.CreateTableAsync<Produit>().Wait(); // Recreate the table with the updated schema
         }
+
 
         public Task<List<Produit>> GetProduitAsync()
         {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using GestionProduit.DataBase;
+using GestionProduit.Models;
 using GestionProduit.Views;
 using Xamarin.Forms;
 
@@ -8,7 +9,9 @@ namespace GestionProduit
 {
     public partial class App : Application
     {
+        public static User CurrentUser { get; set; }
         private static ProduitDatabase _database;
+        private static CommendeDatabase _databasee;
 
         // Propriété statique pour accéder à la base de données
         public static ProduitDatabase Database
@@ -21,6 +24,18 @@ namespace GestionProduit
                     _database = new ProduitDatabase(dbPath);
                 }
                 return _database;
+            }
+        }
+        public static CommendeDatabase Databasecommende
+        {
+            get
+            {
+                if (_databasee == null)
+                {
+                    var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Produits.db3");
+                    _databasee = new CommendeDatabase(dbPath);
+                }
+                return _databasee;
             }
         }
 

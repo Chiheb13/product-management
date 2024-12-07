@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GestionProduit.OnboardingPage"
              BackgroundColor="Black">
@@ -17,19 +16,44 @@
                    TextColor="White" 
                    HorizontalTextAlignment="Center" />
 
-            <Label Text="Today is a new day. It's your day. Start managing your projects." 
+            <Label Text="Please select your role to proceed:" 
                    FontSize="16" 
                    TextColor="White" 
                    HorizontalTextAlignment="Center" 
                    Margin="0,10,0,20" />
 
-            <Button Text="Sign In"
-                    FontSize="18"
-                    TextColor="White"
-                    BackgroundColor="#73b8d5"
-                    CornerRadius="20"
-                    HeightRequest="50"
-                    Clicked="OnLoginClicked" />
+            <!-- Grid for Buttons -->
+            <Grid ColumnSpacing="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Admin Button -->
+                <Button Text="Admin"
+                        FontSize="18"
+                        TextColor="White"
+                        BackgroundColor="#FF6347" 
+                        CornerRadius="20"
+                        HeightRequest="50"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Clicked="OnLoginClicked"
+                        WidthRequest="150" />
+
+                <!-- User Button -->
+                <Button Text="User"
+                        FontSize="18"
+                        TextColor="White"
+                        BackgroundColor="#73b8d5" 
+                        CornerRadius="20"
+                        HeightRequest="50"
+                        Grid.Column="1"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Clicked="OnUserLoginClicked"
+                        WidthRequest="150" />
+            </Grid>
         </StackLayout>
     </Grid>
 </ContentPage>

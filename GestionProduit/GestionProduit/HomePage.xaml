@@ -12,6 +12,13 @@
                    Placeholder="Rechercher un produit par titre ou description"
                    TextChanged="OnSearchBarTextChanged" />
 
+        <!-- Button to navigate to AdminOrdersPage -->
+        <Button Text="Voir les Commandes"
+                BackgroundColor="#69dbff"
+                TextColor="White"
+                Clicked="OnViewOrdersClicked"
+                Margin="0,10,0,0" />
+
         <!-- Tableau des produits -->
         <ScrollView>
             <Grid x:Name="ProduitsGrid" Padding="10" ColumnSpacing="5" RowSpacing="5">

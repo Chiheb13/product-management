@@ -1,42 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\",
+  "WorkspaceRootPath": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\createproduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\createproduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\userorderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\userorderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\createproduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\createproduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\userorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\userorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\userhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\userhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\models\\commende.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\models\\commende.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\adminorderspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\adminorderspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\adminorderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\adminorderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\loginpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\loginpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\loginpageadmin.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\loginpageadmin.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\detailsproduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\detailsproduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\productdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\productdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\thinkpad\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\userloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\userloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\userloginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\userloginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\views\\productdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\views\\productdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\createproduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\createproduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\editprduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\editprduit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|c:\\users\\chiheb\\source\\repos\\gestionproduit\\gestionproduit\\gestionproduit\\editprduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{030BDA6E-B7AE-485B-B8EA-9B55CB6548E8}|GestionProduit\\GestionProduit\\GestionProduit.csproj|solutionrelative:gestionproduit\\gestionproduit\\editprduit.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +86,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml",
               "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml",
               "RelativeToolTip": "GestionProduit\\GestionProduit\\HomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-01T13:02:15.786Z",
               "IsPinned": true,
@@ -64,108 +104,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml",
               "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\App.xaml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml",
               "RelativeToolTip": "GestionProduit\\GestionProduit\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-04T17:34:13.769Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Produit.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\Produit.cs",
-              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Models\\Produit.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\Produit.cs",
-              "RelativeToolTip": "GestionProduit\\GestionProduit\\Models\\Produit.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAcAAAAAAAAAA==",
+              "Title": "UserHomepage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserHomepage.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\UserHomepage.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserHomepage.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\UserHomepage.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvzMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:53:11.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml.cs",
-              "RelativeToolTip": "GestionProduit\\GestionProduit\\HomePage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:22:19.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateProduit.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
-              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
-              "RelativeToolTip": "GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwD4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:15:01.79Z",
+              "WhenOpened": "2024-12-06T08:27:56.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateProduit.xaml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml",
-              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\CreateProduit.xaml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml*",
-              "RelativeToolTip": "GestionProduit\\GestionProduit\\CreateProduit.xaml*",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowEAAAAA2AAAAAAAAAA==",
+              "Title": "UserOrderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml*",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-05T00:14:10.606Z",
+              "WhenOpened": "2024-12-06T10:22:35.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserOrderPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\UserOrderPage.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:23:51.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginPageAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml.cs",
-              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwBcAAAAjAAAAAAAAAA==",
+              "Title": "Produit.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Models\\Produit.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\Produit.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Models\\Produit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:57:48.872Z",
+              "WhenOpened": "2024-12-06T09:36:11.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Commende.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\Commende.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Models\\Commende.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\Commende.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Models\\Commende.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:10:07.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminOrdersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwDIAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:47:44.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginPageAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml",
-              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml",
-              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\LoginPageAdmin.xaml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Title": "AdminOrdersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\AdminOrdersPage.xaml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T23:57:43.074Z",
+              "WhenOpened": "2024-12-06T09:47:09.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DetailsProduit.xaml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\DetailsProduit.xaml",
-              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\DetailsProduit.xaml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\DetailsProduit.xaml",
-              "RelativeToolTip": "GestionProduit\\GestionProduit\\DetailsProduit.xaml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-01T12:58:41.578Z",
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\HomePage.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\HomePage.xaml.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAEwE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:45:50.408Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\App.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\App.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADgvy8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:25:45.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Productdetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\Productdetail.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\Productdetail.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\Productdetail.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\Productdetail.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:35:17.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserLoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:40:04.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserLoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\UserLoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T09:40:03.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Productdetail.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\Productdetail.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Views\\Productdetail.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Views\\Productdetail.xaml",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Views\\Productdetail.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T09:16:03.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\Models\\User.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:36:13.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateProduit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\CreateProduit.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAADgv2EAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:19:31.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditPrduit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\EditPrduit.xaml.cs",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\EditPrduit.xaml.cs",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\EditPrduit.xaml.cs",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\EditPrduit.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:15:15.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditPrduit.xaml",
+              "DocumentMoniker": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\EditPrduit.xaml",
+              "RelativeDocumentMoniker": "GestionProduit\\GestionProduit\\EditPrduit.xaml",
+              "ToolTip": "C:\\Users\\chiheb\\source\\repos\\GestionProduit\\GestionProduit\\GestionProduit\\EditPrduit.xaml",
+              "RelativeToolTip": "GestionProduit\\GestionProduit\\EditPrduit.xaml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T01:01:44.06Z"
             }
           ]
         }

@@ -1,0 +1,35 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionProduit.Views.AdminOrdersPage"
+             Title="Commandes">
+    <ContentPage.ToolbarItems>
+        <!-- Optionally, you can add a button to create new orders, if needed -->
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Margin="10" Spacing="15">
+        <!-- Barre de recherche -->
+        <SearchBar x:Name="searchBar"
+                   Placeholder="Rechercher une commande"
+                    />
+
+        <!-- Tableau des commandes -->
+        <ScrollView>
+            <Grid x:Name="OrdersGrid" Padding="10" ColumnSpacing="5" RowSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Add header labels for Orders -->
+                <Label Text="Produit" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="#69dbff" TextColor="White" Padding="10" />
+                <Label Text="Utilisateur" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="#69dbff" TextColor="White" Padding="10" />
+                <Label Text="Statut" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="#69dbff" TextColor="White" Padding="10" />
+                <Label Text="Date de Commande" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="#69dbff" TextColor="White" Padding="10" />
+                <Label Text="Actions" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="#69dbff" TextColor="White" Padding="10" />
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
